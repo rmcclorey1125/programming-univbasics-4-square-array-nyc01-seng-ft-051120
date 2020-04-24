@@ -1,6 +1,6 @@
 def square_array(numbers)
   new_array = []
-  numbers do |num|
+  numbers.length do |num|
     new_array << (num ** 2)
 end
 return new_array
